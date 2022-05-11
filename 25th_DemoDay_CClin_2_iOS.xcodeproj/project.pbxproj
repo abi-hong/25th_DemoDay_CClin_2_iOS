@@ -63,7 +63,8 @@
 		00FEDD39282B927900646214 /* 25th_DemoDay_CClin_2_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				00FEDD51282B98F300646214 /* Base.Iproj */,
+				00FEDD40282B927900646214 /* Main.storyboard */,
+				00FEDD45282B927F00646214 /* LaunchScreen.storyboard */,
 				00FEDD4E282B989300646214 /* Resource */,
 				00FEDD50282B98AD00646214 /* Source */,
 			);
@@ -97,15 +98,6 @@
 				00FEDD53282B996300646214 /* Cells */,
 			);
 			path = Source;
-			sourceTree = "<group>";
-		};
-		00FEDD51282B98F300646214 /* Base.Iproj */ = {
-			isa = PBXGroup;
-			children = (
-				00FEDD40282B927900646214 /* Main.storyboard */,
-				00FEDD45282B927F00646214 /* LaunchScreen.storyboard */,
-			);
-			path = Base.Iproj;
 			sourceTree = "<group>";
 		};
 		00FEDD52282B993900646214 /* Storyboards */ = {

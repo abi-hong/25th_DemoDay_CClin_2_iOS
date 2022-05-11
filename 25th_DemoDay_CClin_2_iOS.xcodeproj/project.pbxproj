@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -63,15 +63,127 @@
 		00FEDD39282B927900646214 /* 25th_DemoDay_CClin_2_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				00FEDD3A282B927900646214 /* AppDelegate.swift */,
-				00FEDD3C282B927900646214 /* SceneDelegate.swift */,
-				00FEDD3E282B927900646214 /* ViewController.swift */,
-				00FEDD40282B927900646214 /* Main.storyboard */,
-				00FEDD43282B927F00646214 /* Assets.xcassets */,
-				00FEDD45282B927F00646214 /* LaunchScreen.storyboard */,
-				00FEDD48282B927F00646214 /* Info.plist */,
+				00FEDD51282B98F300646214 /* Base.Iproj */,
+				00FEDD4E282B989300646214 /* Resource */,
+				00FEDD50282B98AD00646214 /* Source */,
 			);
 			path = 25th_DemoDay_CClin_2_iOS;
+			sourceTree = "<group>";
+		};
+		00FEDD4E282B989300646214 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				00FEDD5C282B99C900646214 /* Fonts */,
+				00FEDD5B282B99BE00646214 /* Constants */,
+				00FEDD43282B927F00646214 /* Assets.xcassets */,
+				00FEDD48282B927F00646214 /* Info.plist */,
+				00FEDD52282B993900646214 /* Storyboards */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		00FEDD50282B98AD00646214 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				00FEDD3A282B927900646214 /* AppDelegate.swift */,
+				00FEDD3C282B927900646214 /* SceneDelegate.swift */,
+				00FEDD5A282B99A400646214 /* Views */,
+				00FEDD59282B999400646214 /* ViewControllers */,
+				00FEDD58282B998A00646214 /* Protocol */,
+				00FEDD57282B998200646214 /* APIService */,
+				00FEDD56282B997900646214 /* APIModel */,
+				00FEDD55282B997300646214 /* AppModel */,
+				00FEDD54282B996B00646214 /* Extensions */,
+				00FEDD53282B996300646214 /* Cells */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		00FEDD51282B98F300646214 /* Base.Iproj */ = {
+			isa = PBXGroup;
+			children = (
+				00FEDD40282B927900646214 /* Main.storyboard */,
+				00FEDD45282B927F00646214 /* LaunchScreen.storyboard */,
+			);
+			path = Base.Iproj;
+			sourceTree = "<group>";
+		};
+		00FEDD52282B993900646214 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		00FEDD53282B996300646214 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		00FEDD54282B996B00646214 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		00FEDD55282B997300646214 /* AppModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppModel;
+			sourceTree = "<group>";
+		};
+		00FEDD56282B997900646214 /* APIModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIModel;
+			sourceTree = "<group>";
+		};
+		00FEDD57282B998200646214 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		00FEDD58282B998A00646214 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		00FEDD59282B999400646214 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				00FEDD3E282B927900646214 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		00FEDD5A282B99A400646214 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		00FEDD5B282B99BE00646214 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		00FEDD5C282B99C900646214 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		6C1F3587E803F0C114174E95 /* Frameworks */ = {
@@ -88,7 +200,6 @@
 				195776113C1DEA222A71EAA9 /* Pods-25th_DemoDay_CClin_2_iOS.debug.xcconfig */,
 				64AF86738889D7429F3AD7E9 /* Pods-25th_DemoDay_CClin_2_iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

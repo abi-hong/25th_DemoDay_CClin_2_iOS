@@ -8,10 +8,11 @@
 import UIKit
 
 class ProjectCategoryCVC: UICollectionViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    static let identifier : String = "ProjectCategoryCVC"
+    
+    @IBOutlet weak var categoryButton: UIButton!
+    
+    func setData(btn : String) {
+        categoryButton.setTitle(btn, for: .normal)
     }
-
 }

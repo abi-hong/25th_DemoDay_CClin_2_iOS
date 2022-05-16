@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct CategoryDataModel {
+    var categoryName : String
+}

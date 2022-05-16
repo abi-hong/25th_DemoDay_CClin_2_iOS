@@ -6,24 +6,41 @@
 //
 
 import UIKit
+import Tabman
+import Pageboy
+
 
 class ProjectMainVC: UIViewController {
-
+    
+    @IBOutlet weak var projectCollectionView: UICollectionView!
+    @IBOutlet weak var searchBar: UISearchBar!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        projectCollectionView.delegate = self
+        projectCollectionView.dataSource = self
     }
     
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension ProjectMainVC : UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        <#code#>
     }
-    */
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        <#code#>
+    }
+    
+    
+}
 
+extension ProjectMainVC : UICollectionViewDelegate {
+    
+}
+
+extension ProjectMainVC : UICollectionViewDelegateFlowLayout {
+    
 }

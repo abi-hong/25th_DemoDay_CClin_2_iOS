@@ -1,16 +1,23 @@
 PODS:
   - Alamofire (5.6.1)
+  - Pageboy (3.6.2)
   - Realm (10.25.2):
     - Realm/Headers (= 10.25.2)
   - Realm/Headers (10.25.2)
   - RealmSwift (10.25.2):
     - Realm (= 10.25.2)
+  - Tabman (2.12.0):
+    - Pageboy (~> 3.6.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.5)
   - RealmSwift (~> 10)
+  - Tabman (~> 2.11)
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Pageboy
+    - Tabman
   trunk:
     - Alamofire
     - Realm
@@ -18,9 +25,11 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  Pageboy: cf121b9dd48c63f3f281b2a9ec93d02e0f23879b
   Realm: 978303663d0509166498f423d112e5ee97d4c91b
   RealmSwift: a0c30c1efc49e928a0a6f8fb141bb2629616d79b
+  Tabman: 447a50447ed2869c39ab3b1a779327e43e067c4e
 
-PODFILE CHECKSUM: 02fbed718c4adfa1344224a0c095843b4f52d948
+PODFILE CHECKSUM: 8e9dc8c521f00f50dcb8605ff0eedaec818da0ab
 
 COCOAPODS: 1.11.3

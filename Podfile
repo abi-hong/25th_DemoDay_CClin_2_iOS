@@ -1,3 +1,4 @@
+source 'https://github.com/CocoaPods/Specs.git'
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
@@ -7,10 +8,8 @@ target '25th_DemoDay_CClin_2_iOS' do
 
   # Pods for 25th_DemoDay_CClin_2_iOS
   
-  # Realm DB
-  pod 'RealmSwift', '~>10'
-  
-  # Alomofire
-  pod 'Alamofire', '~> 5.5'
+pod 'RealmSwift', '~>10'  
+pod 'Alamofire', '~> 5.5'
+pod 'Tabman', '~> 2.11'
 
 end

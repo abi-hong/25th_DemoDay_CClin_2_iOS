@@ -23,9 +23,9 @@ class ProjectDetailCVC: UICollectionViewCell {
     }
     
     func setData(projectName : String, category: String, companyName: String) {
-        if let image = UIImage(named: projectName) {
+        /*if let image = UIImage(named: projectName) {
             projectImg.image = image
-        }
+        }*/
         projectTitle.text = projectName
         projectCategory.text = category
         projectCompanyTitle.text = companyName

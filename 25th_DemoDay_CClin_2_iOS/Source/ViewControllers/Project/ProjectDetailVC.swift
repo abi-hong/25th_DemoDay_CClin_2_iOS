@@ -9,21 +9,24 @@ import UIKit
 
 class ProjectDetailVC: UIViewController {
 
+    @IBOutlet weak var posterImg: UIImageView!
+    @IBOutlet weak var projectRegisterBtn: UIImageView!
+    
+    let projectRegisterSB : UIStoryboard = UIStoryboard(name: "ProjectRegister", bundle: nil)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        posterImg.image = UIImage(named : "고퀄")
+        projectRegisterBtn.image = UIImage(named : "프로젝트신청하기버튼")
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func projectRegisterBtnClicked(_ sender: Any) {
+        guard let nextVC = projectRegisterSB.instantiateViewController(identifier: "ProjectRegisterVC") as? ProjectRegisterVC else {return}
+        
+        self.navigationController?.pushViewController(nextVC, animated: true)
+        
     }
-    */
-
+    
 }

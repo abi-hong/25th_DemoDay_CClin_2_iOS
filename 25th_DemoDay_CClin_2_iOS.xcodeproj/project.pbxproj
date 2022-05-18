@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		000BE80528349DF800080FC2 /* ProjectDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000BE80428349DF800080FC2 /* ProjectDetail.storyboard */; };
 		000BE80728349E7200080FC2 /* ProjectDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000BE80628349E7200080FC2 /* ProjectDetailVC.swift */; };
+		000BE80B2834C52800080FC2 /* ProjectRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000BE80A2834C52800080FC2 /* ProjectRegisterVC.swift */; };
+		000BE80D2834C78B00080FC2 /* ProjectRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000BE80C2834C78B00080FC2 /* ProjectRegister.storyboard */; };
 		00CF4A79282F7203002B68A9 /* ProjectDetailCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF4A77282F7203002B68A9 /* ProjectDetailCVC.swift */; };
 		00CF4A7A282F7203002B68A9 /* ProjectDetailCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CF4A78282F7203002B68A9 /* ProjectDetailCVC.xib */; };
 		00CF4A7C282F9DA4002B68A9 /* ProjectDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF4A7B282F9DA4002B68A9 /* ProjectDataModel.swift */; };
@@ -28,6 +30,8 @@
 /* Begin PBXFileReference section */
 		000BE80428349DF800080FC2 /* ProjectDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProjectDetail.storyboard; sourceTree = "<group>"; };
 		000BE80628349E7200080FC2 /* ProjectDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailVC.swift; sourceTree = "<group>"; };
+		000BE80A2834C52800080FC2 /* ProjectRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRegisterVC.swift; sourceTree = "<group>"; };
+		000BE80C2834C78B00080FC2 /* ProjectRegister.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProjectRegister.storyboard; sourceTree = "<group>"; };
 		00CF4A77282F7203002B68A9 /* ProjectDetailCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailCVC.swift; sourceTree = "<group>"; };
 		00CF4A78282F7203002B68A9 /* ProjectDetailCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectDetailCVC.xib; sourceTree = "<group>"; };
 		00CF4A7B282F9DA4002B68A9 /* ProjectDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDataModel.swift; sourceTree = "<group>"; };
@@ -206,6 +210,7 @@
 			children = (
 				00FEDD5D282BAE2600646214 /* Project.storyboard */,
 				000BE80428349DF800080FC2 /* ProjectDetail.storyboard */,
+				000BE80C2834C78B00080FC2 /* ProjectRegister.storyboard */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 			children = (
 				00FEDD61282BAFF500646214 /* ProjectMainVC.swift */,
 				000BE80628349E7200080FC2 /* ProjectDetailVC.swift */,
+				000BE80A2834C52800080FC2 /* ProjectRegisterVC.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -308,6 +314,7 @@
 				00FEDD5E282BAE2600646214 /* Project.storyboard in Resources */,
 				00FEDD47282B927F00646214 /* LaunchScreen.storyboard in Resources */,
 				00FEDD44282B927F00646214 /* Assets.xcassets in Resources */,
+				000BE80D2834C78B00080FC2 /* ProjectRegister.storyboard in Resources */,
 				00CF4A7A282F7203002B68A9 /* ProjectDetailCVC.xib in Resources */,
 				00FEDD42282B927900646214 /* Main.storyboard in Resources */,
 				000BE80528349DF800080FC2 /* ProjectDetail.storyboard in Resources */,
@@ -364,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				000BE80728349E7200080FC2 /* ProjectDetailVC.swift in Sources */,
+				000BE80B2834C52800080FC2 /* ProjectRegisterVC.swift in Sources */,
 				00FEDD3F282B927900646214 /* ViewController.swift in Sources */,
 				00FEDD3B282B927900646214 /* AppDelegate.swift in Sources */,
 				00FEDD3D282B927900646214 /* SceneDelegate.swift in Sources */,

@@ -2,7 +2,7 @@
 //  ProjectMainVC.swift
 //  25th_DemoDay_CClin_2_iOS
 //
-//  Created by 홍희수 on 2022/05/11.
+//  Created by 홍희수 on 2022/05/20.
 //
 
 import UIKit
@@ -15,6 +15,7 @@ class ProjectMainVC: UIViewController {
     @IBOutlet weak var projectCollectionView: UICollectionView!
     @IBOutlet weak var searchBar: UISearchBar!
     
+    @IBOutlet weak var verticalScrollView: UIScrollView!
     private var projectList : [ProjectDataModel] = []
     
     let projectDetailSB : UIStoryboard = UIStoryboard(name: "ProjectDetail", bundle: nil)

@@ -12,7 +12,7 @@ class ProjectDetailCVC: UICollectionViewCell {
     static let identifier: String = "ProjectDetailCVC"
  
     
-    @IBOutlet weak var projectImg: UIImage!
+    @IBOutlet weak var projectImg: UIImageView!
     @IBOutlet weak var projectTitle: UILabel!
     @IBOutlet weak var projectCategory: UILabel!
     @IBOutlet weak var projectCompanyTitle: UILabel!
@@ -23,10 +23,10 @@ class ProjectDetailCVC: UICollectionViewCell {
     }
     
     func setData(projectImgname : String, projectName : String, category: String, companyName: String) {
-        /*if let image = UIImage(named: projectName) {
-            projectImg.image = image
-        }*/
-        projectImg = UIImage(named : projectImgname)
+        
+        if let image = UIImage(named: projectImgname) {
+         projectImg.image = image
+        }
         projectTitle.text = projectName
         projectCategory.text = category
         projectCompanyTitle.text = companyName

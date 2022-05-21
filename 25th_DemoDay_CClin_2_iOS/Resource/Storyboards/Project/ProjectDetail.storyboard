@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--CClin-->
+        <!--프로젝트-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
                 <viewController storyboardIdentifier="ProjectDetailVC" hidesBottomBarWhenPushed="YES" id="Y6W-OH-hqX" customClass="ProjectDetailVC" customModule="_5th_DemoDay_CClin_2_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,12 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="프로젝트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lPi-23-Ef0">
-                                <rect key="frame" x="20" y="30" width="69.5" height="24"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HBn-Vq-zGj">
                                 <rect key="frame" x="20" y="69" width="120" height="120"/>
                                 <constraints>
@@ -293,14 +287,11 @@
                             <constraint firstItem="W88-9b-H3d" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="25" id="gsl-w4-nEQ"/>
                             <constraint firstItem="pnH-oD-URZ" firstAttribute="leading" secondItem="cDU-kV-fc4" secondAttribute="trailing" constant="11" id="iJX-gY-Yce"/>
                             <constraint firstItem="F8T-hz-UW3" firstAttribute="top" secondItem="6kp-qS-83p" secondAttribute="bottom" constant="8" symbolic="YES" id="iKc-dF-MHX"/>
-                            <constraint firstItem="HBn-Vq-zGj" firstAttribute="top" secondItem="lPi-23-Ef0" secondAttribute="bottom" constant="15" id="jOj-tX-476"/>
-                            <constraint firstItem="lPi-23-Ef0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="k7p-gU-S5J"/>
                             <constraint firstItem="hR8-ic-FrY" firstAttribute="leading" secondItem="HBn-Vq-zGj" secondAttribute="trailing" constant="17" id="kOG-Qu-pU9"/>
                             <constraint firstItem="JRo-bW-2IX" firstAttribute="top" secondItem="zkt-rh-nss" secondAttribute="bottom" constant="8" symbolic="YES" id="mQg-h3-7yM"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Ssj-Tx-NIF" secondAttribute="trailing" constant="65" id="mZh-bh-Sdd"/>
                             <constraint firstItem="cDU-kV-fc4" firstAttribute="leading" secondItem="K9G-5H-Q24" secondAttribute="trailing" constant="39" id="mg2-Xr-fp0"/>
                             <constraint firstItem="72E-5f-c93" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="90" id="o58-fl-UhT"/>
-                            <constraint firstItem="lPi-23-Ef0" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="30" id="qel-QL-nqf"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="yua-8a-AJk" secondAttribute="trailing" constant="209" id="qpu-BJ-9nD"/>
                             <constraint firstItem="hR8-ic-FrY" firstAttribute="top" secondItem="DXw-wI-fxD" secondAttribute="bottom" constant="4" id="qyQ-r3-o8M"/>
                             <constraint firstItem="dFH-R6-Ftb" firstAttribute="leading" secondItem="XBC-DC-1Fg" secondAttribute="trailing" constant="56" id="rE5-cD-fON"/>
@@ -311,12 +302,13 @@
                             <constraint firstItem="Wow-55-YRI" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="25" id="xah-Eh-fB8"/>
                             <constraint firstItem="HCE-cH-Gel" firstAttribute="top" secondItem="YET-5H-ynP" secondAttribute="bottom" constant="12" id="yMj-Y8-fgo"/>
                             <constraint firstItem="YET-5H-ynP" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="119" id="yOD-zH-fri"/>
+                            <constraint firstItem="HBn-Vq-zGj" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="69" id="ykr-HT-QE5"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="HCE-cH-Gel" secondAttribute="trailing" constant="162" id="z13-sT-9ga"/>
                             <constraint firstItem="Hzd-Dm-R4N" firstAttribute="top" secondItem="HBn-Vq-zGj" secondAttribute="bottom" constant="30" id="zEo-sr-giu"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
-                    <navigationItem key="navigationItem" title="CClin" id="59T-d7-WZ8"/>
+                    <navigationItem key="navigationItem" title="프로젝트" id="59T-d7-WZ8"/>
                     <connections>
                         <outlet property="posterImg" destination="HBn-Vq-zGj" id="qmM-sP-r26"/>
                         <outlet property="projectRegisterBtn" destination="DkV-w7-Npl" id="S8B-pg-QFX"/>

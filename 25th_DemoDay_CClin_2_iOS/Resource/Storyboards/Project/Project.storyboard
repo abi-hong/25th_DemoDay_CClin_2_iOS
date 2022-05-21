@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0fR-yB-yeb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0fR-yB-yeb">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -27,15 +28,11 @@
                                 <rect key="frame" x="20" y="202" width="374" height="51"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XHj-T1-y3M">
-                                <rect key="frame" x="0.0" y="273" width="414" height="40"/>
-                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PgA-h8-cjb">
-                                <rect key="frame" x="0.0" y="333" width="414" height="40"/>
+                                <rect key="frame" x="0.0" y="334" width="414" height="39"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="총 395건" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cq-YK-Fxt">
-                                        <rect key="frame" x="20" y="10" width="54" height="18"/>
+                                        <rect key="frame" x="20" y="10" width="54" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                         <nil key="highlightedColor"/>
@@ -95,26 +92,27 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WnA-Ek-lfP">
+                                <rect key="frame" x="0.0" y="272" width="414" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="3gp-D7-vKt"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="tQY-sl-czk"/>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="PgA-h8-cjb" firstAttribute="top" secondItem="XHj-T1-y3M" secondAttribute="bottom" constant="20" id="831-Y0-fXG"/>
                             <constraint firstItem="j2h-3u-HZk" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Bv9-QL-nS0"/>
                             <constraint firstItem="AHv-la-Xzm" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="CpJ-gN-2y4"/>
                             <constraint firstItem="WR3-it-YUA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="GLL-Cy-96d"/>
-                            <constraint firstItem="XHj-T1-y3M" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="K9y-8v-s1l"/>
-                            <constraint firstItem="XHj-T1-y3M" firstAttribute="top" secondItem="j2h-3u-HZk" secondAttribute="bottom" constant="20" id="Kwn-jH-Aom"/>
                             <constraint firstItem="j2h-3u-HZk" firstAttribute="top" secondItem="AHv-la-Xzm" secondAttribute="bottom" constant="15" id="MKU-m3-K6y"/>
                             <constraint firstItem="PgA-h8-cjb" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="OUn-YB-vhB"/>
                             <constraint firstItem="PgA-h8-cjb" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="RN4-a7-8Ns"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="PgA-h8-cjb" secondAttribute="bottom" constant="440" id="Uh1-J1-frf"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="WR3-it-YUA" secondAttribute="trailing" constant="20" id="VXa-xm-0Ih"/>
                             <constraint firstItem="WR3-it-YUA" firstAttribute="top" secondItem="PgA-h8-cjb" secondAttribute="bottom" constant="20" id="YF6-L2-xge"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="XHj-T1-y3M" secondAttribute="trailing" id="dMB-K6-6Ol"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="j2h-3u-HZk" secondAttribute="trailing" constant="20" id="g8A-am-iPL"/>
                             <constraint firstItem="AHv-la-Xzm" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="o3w-nA-NUn"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="XHj-T1-y3M" secondAttribute="bottom" constant="500" id="sXQ-DC-fTR"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
@@ -122,6 +120,7 @@
                     <connections>
                         <outlet property="projectCollectionView" destination="WR3-it-YUA" id="6kp-8Q-zje"/>
                         <outlet property="searchBar" destination="j2h-3u-HZk" id="mHD-8n-CSG"/>
+                        <outlet property="verticalScrollView" destination="WnA-Ek-lfP" id="9Pd-Ia-dOs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

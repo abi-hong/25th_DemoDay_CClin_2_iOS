@@ -8,20 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		000BE80528349DF800080FC2 /* ProjectDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000BE80428349DF800080FC2 /* ProjectDetail.storyboard */; };
-		000BE80728349E7200080FC2 /* ProjectDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000BE80628349E7200080FC2 /* ProjectDetailVC.swift */; };
-		000BE80B2834C52800080FC2 /* ProjectRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000BE80A2834C52800080FC2 /* ProjectRegisterVC.swift */; };
 		000BE80D2834C78B00080FC2 /* ProjectRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000BE80C2834C78B00080FC2 /* ProjectRegister.storyboard */; };
+		00B1EA082837578300CA8B5E /* ProjectMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1EA072837578300CA8B5E /* ProjectMainVC.swift */; };
+		00B1EA0A283757AA00CA8B5E /* ProjectDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1EA09283757AA00CA8B5E /* ProjectDetailVC.swift */; };
+		00B1EA0C283757CD00CA8B5E /* ProjectRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1EA0B283757CD00CA8B5E /* ProjectRegisterVC.swift */; };
 		00CF4A79282F7203002B68A9 /* ProjectDetailCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF4A77282F7203002B68A9 /* ProjectDetailCVC.swift */; };
 		00CF4A7A282F7203002B68A9 /* ProjectDetailCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CF4A78282F7203002B68A9 /* ProjectDetailCVC.xib */; };
 		00CF4A7C282F9DA4002B68A9 /* ProjectDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF4A7B282F9DA4002B68A9 /* ProjectDataModel.swift */; };
 		00FEDD3B282B927900646214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FEDD3A282B927900646214 /* AppDelegate.swift */; };
 		00FEDD3D282B927900646214 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FEDD3C282B927900646214 /* SceneDelegate.swift */; };
-		00FEDD3F282B927900646214 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FEDD3E282B927900646214 /* ViewController.swift */; };
 		00FEDD42282B927900646214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FEDD40282B927900646214 /* Main.storyboard */; };
 		00FEDD44282B927F00646214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FEDD43282B927F00646214 /* Assets.xcassets */; };
 		00FEDD47282B927F00646214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FEDD45282B927F00646214 /* LaunchScreen.storyboard */; };
 		00FEDD5E282BAE2600646214 /* Project.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FEDD5D282BAE2600646214 /* Project.storyboard */; };
-		00FEDD62282BAFF500646214 /* ProjectMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FEDD61282BAFF500646214 /* ProjectMainVC.swift */; };
 		00FEDD68282BBB2800646214 /* ProjectCategoryCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FEDD66282BBB2800646214 /* ProjectCategoryCVC.swift */; };
 		00FEDD6D282BC05600646214 /* CategoryDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FEDD6C282BC05600646214 /* CategoryDataModel.swift */; };
 		C586AA4819A615B183D00D10 /* Pods_25th_DemoDay_CClin_2_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42B386F497EC1DEA611DCC9 /* Pods_25th_DemoDay_CClin_2_iOS.framework */; };
@@ -29,22 +28,21 @@
 
 /* Begin PBXFileReference section */
 		000BE80428349DF800080FC2 /* ProjectDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProjectDetail.storyboard; sourceTree = "<group>"; };
-		000BE80628349E7200080FC2 /* ProjectDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailVC.swift; sourceTree = "<group>"; };
-		000BE80A2834C52800080FC2 /* ProjectRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRegisterVC.swift; sourceTree = "<group>"; };
 		000BE80C2834C78B00080FC2 /* ProjectRegister.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProjectRegister.storyboard; sourceTree = "<group>"; };
+		00B1EA072837578300CA8B5E /* ProjectMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectMainVC.swift; sourceTree = "<group>"; };
+		00B1EA09283757AA00CA8B5E /* ProjectDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailVC.swift; sourceTree = "<group>"; };
+		00B1EA0B283757CD00CA8B5E /* ProjectRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRegisterVC.swift; sourceTree = "<group>"; };
 		00CF4A77282F7203002B68A9 /* ProjectDetailCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailCVC.swift; sourceTree = "<group>"; };
 		00CF4A78282F7203002B68A9 /* ProjectDetailCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectDetailCVC.xib; sourceTree = "<group>"; };
 		00CF4A7B282F9DA4002B68A9 /* ProjectDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDataModel.swift; sourceTree = "<group>"; };
 		00FEDD37282B927900646214 /* 25th_DemoDay_CClin_2_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 25th_DemoDay_CClin_2_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00FEDD3A282B927900646214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00FEDD3C282B927900646214 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00FEDD3E282B927900646214 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		00FEDD41282B927900646214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00FEDD43282B927F00646214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00FEDD46282B927F00646214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00FEDD48282B927F00646214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00FEDD5D282BAE2600646214 /* Project.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Project.storyboard; sourceTree = "<group>"; };
-		00FEDD61282BAFF500646214 /* ProjectMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectMainVC.swift; sourceTree = "<group>"; };
 		00FEDD66282BBB2800646214 /* ProjectCategoryCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCategoryCVC.swift; sourceTree = "<group>"; };
 		00FEDD6C282BC05600646214 /* CategoryDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDataModel.swift; sourceTree = "<group>"; };
 		195776113C1DEA222A71EAA9 /* Pods-25th_DemoDay_CClin_2_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-25th_DemoDay_CClin_2_iOS.debug.xcconfig"; path = "Target Support Files/Pods-25th_DemoDay_CClin_2_iOS/Pods-25th_DemoDay_CClin_2_iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,6 +62,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00B1EA052837573F00CA8B5E /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				00B1EA062837576700CA8B5E /* Project */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		00B1EA062837576700CA8B5E /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				00B1EA072837578300CA8B5E /* ProjectMainVC.swift */,
+				00B1EA09283757AA00CA8B5E /* ProjectDetailVC.swift */,
+				00B1EA0B283757CD00CA8B5E /* ProjectRegisterVC.swift */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
 		00FEDD2E282B927900646214 = {
 			isa = PBXGroup;
 			children = (
@@ -108,10 +124,10 @@
 		00FEDD50282B98AD00646214 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				00B1EA052837573F00CA8B5E /* VCs */,
 				00FEDD3A282B927900646214 /* AppDelegate.swift */,
 				00FEDD3C282B927900646214 /* SceneDelegate.swift */,
 				00FEDD5A282B99A400646214 /* Views */,
-				00FEDD59282B999400646214 /* ViewControllers */,
 				00FEDD58282B998A00646214 /* Protocol */,
 				00FEDD57282B998200646214 /* APIService */,
 				00FEDD56282B997900646214 /* APIModel */,
@@ -175,15 +191,6 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
-		00FEDD59282B999400646214 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				00FEDD60282BAFCC00646214 /* Project */,
-				00FEDD3E282B927900646214 /* ViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		00FEDD5A282B99A400646214 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,16 +218,6 @@
 				00FEDD5D282BAE2600646214 /* Project.storyboard */,
 				000BE80428349DF800080FC2 /* ProjectDetail.storyboard */,
 				000BE80C2834C78B00080FC2 /* ProjectRegister.storyboard */,
-			);
-			path = Project;
-			sourceTree = "<group>";
-		};
-		00FEDD60282BAFCC00646214 /* Project */ = {
-			isa = PBXGroup;
-			children = (
-				00FEDD61282BAFF500646214 /* ProjectMainVC.swift */,
-				000BE80628349E7200080FC2 /* ProjectDetailVC.swift */,
-				000BE80A2834C52800080FC2 /* ProjectRegisterVC.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -370,16 +367,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000BE80728349E7200080FC2 /* ProjectDetailVC.swift in Sources */,
-				000BE80B2834C52800080FC2 /* ProjectRegisterVC.swift in Sources */,
-				00FEDD3F282B927900646214 /* ViewController.swift in Sources */,
+				00B1EA0C283757CD00CA8B5E /* ProjectRegisterVC.swift in Sources */,
+				00B1EA0A283757AA00CA8B5E /* ProjectDetailVC.swift in Sources */,
 				00FEDD3B282B927900646214 /* AppDelegate.swift in Sources */,
 				00FEDD3D282B927900646214 /* SceneDelegate.swift in Sources */,
 				00FEDD6D282BC05600646214 /* CategoryDataModel.swift in Sources */,
+				00B1EA082837578300CA8B5E /* ProjectMainVC.swift in Sources */,
 				00FEDD68282BBB2800646214 /* ProjectCategoryCVC.swift in Sources */,
 				00CF4A7C282F9DA4002B68A9 /* ProjectDataModel.swift in Sources */,
 				00CF4A79282F7203002B68A9 /* ProjectDetailCVC.swift in Sources */,
-				00FEDD62282BAFF500646214 /* ProjectMainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

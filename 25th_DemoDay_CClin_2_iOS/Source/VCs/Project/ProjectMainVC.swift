@@ -35,12 +35,12 @@ class ProjectMainVC: UIViewController {
     
     func setProjectList() {
         projectList.append(contentsOf: [
-            ProjectDataModel(projectName: "iOT 서비스의 기획 및 아이디어 공모", projectCategory: "#경쟁 #아이디어 공모 #브랜드 홍보 #기획", companyName: "고퀄"),
-            ProjectDataModel(projectName: "iOT 서비스의 기획 및 아이디어 공모", projectCategory: "#경쟁 #아이디어 공모 #브랜드 홍보 #기획", companyName: "고퀄"),
-            ProjectDataModel(projectName: "iOT 서비스의 기획 및 아이디어 공모", projectCategory: "#경쟁 #아이디어 공모 #브랜드 홍보 #기획", companyName: "고퀄"),
-            ProjectDataModel(projectName: "iOT 서비스의 기획 및 아이디어 공모", projectCategory: "#경쟁 #아이디어 공모 #브랜드 홍보 #기획", companyName: "고퀄"),
-            ProjectDataModel(projectName: "iOT 서비스의 기획 및 아이디어 공모", projectCategory: "#경쟁 #아이디어 공모 #브랜드 홍보 #기획", companyName: "고퀄"),
-            ProjectDataModel(projectName: "iOT 서비스의 기획 및 아이디어 공모", projectCategory: "#경쟁 #아이디어 공모 #브랜드 홍보 #기획", companyName: "고퀄"),
+            ProjectDataModel(projectName: "iOT 서비스의 기획 및 아이디어 공모", projectCategory: "#경쟁 #아이디어 공모 #브랜드 홍보 #기획", companyName: "고퀄", projectImgName: "고퀄"),
+            ProjectDataModel(projectName: "iOT 서비스의 기획 및 아이디어 공모", projectCategory: "#경쟁 #아이디어 공모 #브랜드 홍보 #기획", companyName: "고퀄", projectImgName: "파블로항공"),
+            ProjectDataModel(projectName: "iOT 서비스의 기획 및 아이디어 공모", projectCategory: "#경쟁 #아이디어 공모 #브랜드 홍보 #기획", companyName: "고퀄", projectImgName: "파블로항공2"),
+            ProjectDataModel(projectName: "iOT 서비스의 기획 및 아이디어 공모", projectCategory: "#경쟁 #아이디어 공모 #브랜드 홍보 #기획", companyName: "고퀄", projectImgName: "팀메모리"),
+            ProjectDataModel(projectName: "iOT 서비스의 기획 및 아이디어 공모", projectCategory: "#경쟁 #아이디어 공모 #브랜드 홍보 #기획", companyName: "고퀄", projectImgName: "팀메모리"),
+            ProjectDataModel(projectName: "iOT 서비스의 기획 및 아이디어 공모", projectCategory: "#경쟁 #아이디어 공모 #브랜드 홍보 #기획", companyName: "고퀄", projectImgName: "고퀄"),
         ])
     }
     
@@ -56,7 +56,7 @@ extension ProjectMainVC : UICollectionViewDataSource {
             return UICollectionViewCell()
         }
         
-        projectCell.setData(projectName: projectList[indexPath.row].projectName, category: projectList[indexPath.row].projectCategory, companyName: projectList[indexPath.row].companyName)
+        projectCell.setData(projectImgname: projectList[indexPath.row].projectImgName ,projectName: projectList[indexPath.row].projectName, category: projectList[indexPath.row].projectCategory, companyName: projectList[indexPath.row].companyName)
         
         return projectCell
     }

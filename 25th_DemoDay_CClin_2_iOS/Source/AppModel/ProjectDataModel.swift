@@ -11,5 +11,5 @@ struct ProjectDataModel {
     var projectName : String
     var projectCategory : String
     var companyName : String
-    //var projectImg : Image
+    var projectImgName : String
 }

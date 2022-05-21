@@ -6,16 +6,12 @@
 //
 
 import UIKit
-import Tabman
-import Pageboy
 
 
 class ProjectMainVC: UIViewController {
     
     @IBOutlet weak var projectCollectionView: UICollectionView!
-    @IBOutlet weak var searchBar: UISearchBar!
     
-    @IBOutlet weak var verticalScrollView: UIScrollView!
     private var projectList : [ProjectDataModel] = []
     
     let projectDetailSB : UIStoryboard = UIStoryboard(name: "ProjectDetail", bundle: nil)

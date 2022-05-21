@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		000BE80528349DF800080FC2 /* ProjectDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000BE80428349DF800080FC2 /* ProjectDetail.storyboard */; };
 		000BE80D2834C78B00080FC2 /* ProjectRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000BE80C2834C78B00080FC2 /* ProjectRegister.storyboard */; };
+		004B1F262838AC84002B1FF9 /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004B1F252838AC83002B1FF9 /* Tabbar.storyboard */; };
+		004B1F282838ADC5002B1FF9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004B1F272838ADC5002B1FF9 /* Home.storyboard */; };
+		004B1F2A2838AF90002B1FF9 /* Partner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004B1F292838AF90002B1FF9 /* Partner.storyboard */; };
+		004B1F2E2838AFA9002B1FF9 /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004B1F2D2838AFA9002B1FF9 /* MyPage.storyboard */; };
 		00B1EA082837578300CA8B5E /* ProjectMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1EA072837578300CA8B5E /* ProjectMainVC.swift */; };
 		00B1EA0A283757AA00CA8B5E /* ProjectDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1EA09283757AA00CA8B5E /* ProjectDetailVC.swift */; };
 		00B1EA0C283757CD00CA8B5E /* ProjectRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1EA0B283757CD00CA8B5E /* ProjectRegisterVC.swift */; };
@@ -29,6 +33,10 @@
 /* Begin PBXFileReference section */
 		000BE80428349DF800080FC2 /* ProjectDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProjectDetail.storyboard; sourceTree = "<group>"; };
 		000BE80C2834C78B00080FC2 /* ProjectRegister.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProjectRegister.storyboard; sourceTree = "<group>"; };
+		004B1F252838AC83002B1FF9 /* Tabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
+		004B1F272838ADC5002B1FF9 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		004B1F292838AF90002B1FF9 /* Partner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Partner.storyboard; sourceTree = "<group>"; };
+		004B1F2D2838AFA9002B1FF9 /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
 		00B1EA072837578300CA8B5E /* ProjectMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectMainVC.swift; sourceTree = "<group>"; };
 		00B1EA09283757AA00CA8B5E /* ProjectDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailVC.swift; sourceTree = "<group>"; };
 		00B1EA0B283757CD00CA8B5E /* ProjectRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRegisterVC.swift; sourceTree = "<group>"; };
@@ -142,6 +150,10 @@
 			isa = PBXGroup;
 			children = (
 				00FEDD5F282BAFBB00646214 /* Project */,
+				004B1F252838AC83002B1FF9 /* Tabbar.storyboard */,
+				004B1F272838ADC5002B1FF9 /* Home.storyboard */,
+				004B1F292838AF90002B1FF9 /* Partner.storyboard */,
+				004B1F2D2838AFA9002B1FF9 /* MyPage.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -309,12 +321,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				00FEDD5E282BAE2600646214 /* Project.storyboard in Resources */,
+				004B1F2A2838AF90002B1FF9 /* Partner.storyboard in Resources */,
 				00FEDD47282B927F00646214 /* LaunchScreen.storyboard in Resources */,
 				00FEDD44282B927F00646214 /* Assets.xcassets in Resources */,
 				000BE80D2834C78B00080FC2 /* ProjectRegister.storyboard in Resources */,
+				004B1F262838AC84002B1FF9 /* Tabbar.storyboard in Resources */,
+				004B1F2E2838AFA9002B1FF9 /* MyPage.storyboard in Resources */,
 				00CF4A7A282F7203002B68A9 /* ProjectDetailCVC.xib in Resources */,
 				00FEDD42282B927900646214 /* Main.storyboard in Resources */,
 				000BE80528349DF800080FC2 /* ProjectDetail.storyboard in Resources */,
+				004B1F282838ADC5002B1FF9 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
